@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
@@ -21,14 +22,5 @@ public class SecondActivity extends AppCompatActivity {
 
         textView2.setText(s);
 
-        finish();
-    }
-
-    @Override
-    public void finish() {
-        Intent intent = new Intent();
-
-        setResult(RESULT_OK, intent);
-        super.finish();
     }
 }
