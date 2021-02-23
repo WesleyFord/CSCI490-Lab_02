@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">IntentDemo</string>
+    <string name="selectBackground">Select Background</string>
+    <string name="selectionText">Click on one of the backgrounds below!</string>
 </resources>
